@@ -40,7 +40,7 @@ function navbar() {
 
       {nav && (
         <div className="flex flex-col gap-4 px-4 py-4 font-bold bg-white/10 backdrop-blur-md border border-gray-700 absolute z-50 w-full">
-          <a href="#home" onClick={() => setIsOpen(false)}>
+          <a href="#home" onClick={() => setnav(false)}>
             Home
           </a>
           <a href="#about" onClick={() => setnav(false)}>

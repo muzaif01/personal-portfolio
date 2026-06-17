@@ -3,6 +3,7 @@ import { MapPin } from "lucide-react";
 import { Mail } from "lucide-react";
 import { BriefcaseBusiness } from "lucide-react";
 import { Clock } from "lucide-react";
+import Timeline from "../assets/timeline.png"
 
 function About() {
   return (
@@ -12,13 +13,17 @@ function About() {
         <h2 className="font-bold text-3xl">About Me</h2>
       </div>
       <div className="flex">
-        <div className="overflow-auto">
+        <div className="overflow-auto lg:w-1/2">
           <div className="">
-            <p className="text-gray-800 font-semibold text-[22px] text-justify lg:w-1/2 ">
-              I'm a passionate Full Stack Developer with a strong foundation in
-              building scalable web applications and turning ideas into
-              real-world solutions.
+            <p className=" font-semibold text-[22px] text-justify">
+             I'm a Full Stack Developer who enjoys creating scalable and user-focused web applications.
+With a strong problem-solving mindset, I love turning ideas into real-world digital experiences.
+I'm continuously learning new technologies and building projects that challenge and improve my skills.
             </p>
+          </div>
+
+          <div className="lg:hidden md:hidden">
+            <img src="" alt="" />
           </div>
 
           <div className="mt-10 flex flex-col">
@@ -27,8 +32,6 @@ function About() {
               <p className="font-bold text-[24px] w-32 mr-4 ml-3">Location</p>{" "}
               <p className="text-[22px] text-gray-700">India</p>
             </div>
-
-      
 
             <div className="flex items-center">
               {" "}
@@ -47,10 +50,11 @@ function About() {
                 Open to work
               </p>
             </div>
+
           </div>
         </div>
-        <div className="">
-      
+        <div className="hidden lg:w-1/2 lg:flex">
+          <img src={Timeline} alt="" />
         </div>
       </div>
     </div>
