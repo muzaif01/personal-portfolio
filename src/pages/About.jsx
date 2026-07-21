@@ -46,7 +46,7 @@ I'm continuously learning new technologies and building projects that challenge 
               <p className="font-bold text-[24px] w-32 mr-4 ml-3">
                 Availability
               </p>{" "}
-              <p className="text-[22px] text-green-600 font-semibold">
+              <p className="text-[20px] text-green-600 font-semibold lg:text-[22px]">
                 Open to work
               </p>
             </div>
